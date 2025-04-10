@@ -1,13 +1,13 @@
 {% set name = "wagtail-app-pages" %}
-{% set version = "0.3.5" %}
+{% set version = "0.3.6" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/wagtail_app_pages-{{ version }}.tar.gz
-  sha256: 407d8a79cedf04e08fdb71151561252881b66c7b7ff167ec29d0a59143285782
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/wagtail_app_pages-{{ version }}.tar.gz
+  sha256: 5c3d3ba032355714f8514f7912f768b1161996c0dd4ef4f5c3334bd8f3cbc0f9
 
 build:
   noarch: python
